@@ -45,7 +45,9 @@
             <div class="card-body">
               <h5 class="card-title">{{ value.title }}</h5>
               <p class="card-text">{{ value.text }}</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <router-link class="btn btn-primary" :to="'/style/' + value.id"
+                >More</router-link
+              >
             </div>
           </div>
         </div>
@@ -62,7 +64,9 @@
             <div class="card-body">
               <h5 class="card-title">{{ value.title }}</h5>
               <p class="card-text">{{ value.text }}</p>
-              <a :href="value.url" target="_blank" class="btn btn-primary">Go somewhere</a>
+              <a :href="value.url" target="_blank" class="btn btn-primary"
+                >Go somewhere</a
+              >
             </div>
           </div>
         </div>
@@ -90,14 +94,16 @@ export default {
     return {
       modelData: [
         {
+          id: "01",
           name: "model01",
-          title: "風格01",
+          title: "綠色風格",
           img: "model01",
           text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
         },
         {
-          name: "model01",
-          title: "風格01",
+          id: "02",
+          name: "model02",
+          title: "粉紅風格",
           img: "model01",
           text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
         },
@@ -117,7 +123,7 @@ export default {
           text: "vercel建立的hexo Blog，應用vercel ci/cd功能能自動同步github更新。",
           url: "https://blog-test-three-alpha.vercel.app/",
         },
-      ]
+      ],
     };
   },
 };

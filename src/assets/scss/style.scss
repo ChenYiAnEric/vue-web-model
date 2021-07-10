@@ -1,0 +1,34 @@
+/* common */
+.banner {
+  display: flex;
+  max-height: 50vh;
+}
+.select01 {
+  display: flex;
+  padding: 16px;
+  text-align: left;
+  background-color: #fefefe;
+}
+.select02 {
+  display: flex;
+  padding: 16px;
+  margin-bottom: 3rem;
+  text-align: left;
+  background-color: #eee;
+  .contentWrap {
+    padding-left: 4rem;
+  }
+}
+.subtittle {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+/* green style */
+.model01 .bg-header {
+  background: #57bc90;
+}
+/* pink style */
+.model02 .bg-header {
+  background: #fedcd2;
+}

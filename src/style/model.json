@@ -1,0 +1,16 @@
+{
+  "model01": {
+    "navbar": "navbar-dark",
+    "Folder": "green",
+    "bannerName": "01",
+    "roomName1": "01",
+    "roomName2": "02"
+  },
+  "model02": {
+    "navbar": "navbar-light",
+    "Folder": "pink",
+    "bannerName": "01",
+    "roomName1": "01",
+    "roomName2": "02"
+  }
+}
