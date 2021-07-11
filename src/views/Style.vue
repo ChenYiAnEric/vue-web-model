@@ -44,7 +44,7 @@
       </nav>
     </header>
     <main class="flex-shrink-0">
-      <div class="container">
+      <div class="container style-container">
         <div class="banner">
           <img
             :src="
@@ -59,7 +59,7 @@
           />
         </div>
         <div class="select01 border-bottom">
-          <div class="col col-lg-9">
+          <div class="col-12 col-xl-9 col-lg-8 col-sm-6">
             <div class="subtittle">內容一</div>
             <div class="subContent pe-lg-4">
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -74,7 +74,7 @@
               Lorem Ipsum.
             </div>
           </div>
-          <div class="col col-lg-3">
+          <div class="col-12 col-xl-3 col-lg-4 col-sm-6">
             <img
               :src="
                 require('../assets/room/' +
@@ -89,7 +89,7 @@
           </div>
         </div>
         <div class="select02">
-          <div class="col col-lg-3">
+          <div class="col-12 col-lg-3 col-sm-6 modelImg">
             <img
               :src="
                 require('../assets/room/' +
@@ -102,7 +102,7 @@
               :alt="styleData['model' + styleId].roomName2"
             />
           </div>
-          <div class="col col-lg-9 contentWrap">
+          <div class="col-12 col-lg-9 col-sm-6 contentWrap">
             <div class="subtittle">內容二</div>
             <div class="subContent">
               Lorem Ipsum is simply dummy text of the printing and typesetting

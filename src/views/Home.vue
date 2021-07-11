@@ -35,7 +35,11 @@
     <section class="container">
       <p class="title-sub">切版</p>
       <div class="row py-3">
-        <div v-for="(value, index) in modelData" :key="index" class="col-3">
+        <div
+          v-for="(value, index) in modelData"
+          :key="index"
+          class="col-lg-3 col-md-4 col-sm-6 mb-3"
+        >
           <div class="card">
             <img
               :src="require(`../assets/home-web-small/${value.img}.jpg`)"
@@ -54,7 +58,11 @@
       </div>
       <p class="title-sub">外部連結</p>
       <div class="row py-3">
-        <div v-for="(value, index) in linkData" :key="index" class="col-3">
+        <div
+          v-for="(value, index) in linkData"
+          :key="index"
+          class="col-lg-3 col-md-4 col-sm-6 mb-3"
+        >
           <div class="card">
             <img
               :src="require(`../assets/home-web-small/${value.img}.jpg`)"
