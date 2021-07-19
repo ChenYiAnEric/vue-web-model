@@ -131,6 +131,13 @@ export default {
           text: "vercel建立的hexo Blog，應用vercel ci/cd功能能自動同步github更新。",
           url: "https://blog-test-three-alpha.vercel.app/",
         },
+        {
+          name: "python-venv",
+          title: "python-venv",
+          img: "python",
+          text: "python爬蟲做資料，查詢原價屋電源供應器。",
+          url: "https://python-venv.vercel.app/",
+        },
       ],
     };
   },
