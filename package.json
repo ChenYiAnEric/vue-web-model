@@ -34,7 +34,8 @@
     "eslint-plugin-vue": "^7.13.0",
     "node-sass": "^5.0.0",
     "prettier": "^2.3.2",
-    "sass-loader": "^10.1.1"
+    "sass-loader": "^10.1.1",
+    "vue-particles": "^1.0.9"
   },
   "eslintConfig": {
     "root": true,
