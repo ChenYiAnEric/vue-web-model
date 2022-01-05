@@ -41,11 +41,13 @@
           class="col-lg-3 col-md-4 col-sm-6 mb-3"
         >
           <div class="card">
-            <img
-              :src="require(`../assets/home-web-small/${value.img}.jpg`)"
-              class="card-img-top"
-              :alt="value.img"
-            />
+            <div class="card-img-top" style="height: 171px; overflow: hidden">
+              <img
+                :src="require(`../assets/home-web-small/${value.img}.jpg`)"
+                class="card-img-top"
+                :alt="value.img"
+              />
+            </div>
             <div class="card-body">
               <h5 class="card-title">{{ value.title }}</h5>
               <p class="card-text">{{ value.text }}</p>
@@ -64,11 +66,13 @@
           class="col-lg-3 col-md-4 col-sm-6 mb-3"
         >
           <div class="card">
-            <img
-              :src="require(`../assets/home-web-small/${value.img}.jpg`)"
-              class="card-img-top"
-              :alt="value.img"
-            />
+            <div class="card-img-top" style="height: 171px; overflow: hidden">
+              <img
+                :src="require(`../assets/home-web-small/${value.img}.jpg`)"
+                class="card-img-top"
+                :alt="value.img"
+              />
+            </div>
             <div class="card-body">
               <h5 class="card-title">{{ value.title }}</h5>
               <p class="card-text">{{ value.text }}</p>
@@ -105,14 +109,14 @@ export default {
           id: "01",
           name: "model01",
           title: "綠色風格",
-          img: "model01",
+          img: "greenmodel",
           text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
         },
         {
           id: "02",
           name: "model02",
           title: "粉紅風格",
-          img: "model01",
+          img: "pinkmodel",
           text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
         },
       ],
