@@ -27,6 +27,9 @@
             <div class="navbar-nav">
               <router-link class="nav-link active" to="/">Home</router-link>
               <router-link class="nav-link" to="/about">About</router-link>
+              <router-link class="nav-link" to="/typetest"
+                >Typescript</router-link
+              >
             </div>
           </div>
         </div>

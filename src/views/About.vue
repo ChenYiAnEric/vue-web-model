@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <div class="main-title">
-      <h1>This is about page</h1>
+      <h1>coming soon</h1>
       <router-link class="btn btn-light" :to="'/'">Back</router-link>
     </div>
     <vue-particles

@@ -22,6 +22,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "style" */ "../views/Style.vue"),
   },
+  {
+    path: "/typetest",
+    name: "Typescript",
+    component: () =>
+      import(/* webpackChunkName: "type" */ "../views/TypeTest.vue"),
+  },
 ];
 
 const router = createRouter({
